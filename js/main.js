@@ -264,10 +264,10 @@ $(window).on('load', function() {
 
 function sendMail() {
     var link = "mailto:psuedopoda@gmail.com"
-             + "&name=" + escape(document.getElementById('Your Name').value)
-             + "&email=" + escape(document.getElementById('Your Email').value)
-						 + "&subject=" + escape(document.getElementById('Subject').value)
-						 + "&message=" + escape(document.getElementById('Message').value)
+             + "&name=" + escape(document.getElementById('name').value)
+             + "&email=" + escape(document.getElementById('email').value)
+						 + "&subject=" + escape(document.getElementById('subject').value)
+						 + "&message=" + escape(document.getElementById('message').value)
     ;
 
     window.location.href = link;
