@@ -90,18 +90,18 @@
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<form class="contact-form">
+					<form class="contact-form" action="mailto:psuedopoda@gmail.com" method="post" enctype="text/plain">
 						<div class="row">
 							<div class="col-lg-6">
-								<input type="text" placeholder="Your Name">
+								<input type="text" placeholder="Your Name" required>
 							</div>
 							<div class="col-lg-6">
-								<input type="text" placeholder="Your Email">
+								<input type="email" placeholder="Your Email" required>
 							</div>
 							<div class="col-lg-4">
 							</div>
 							<div class="col-lg-12">
-								<input type="text" placeholder="Subject">
+								<input type="text" maxlength="6000" placeholder="Subject" required>
 								<textarea class="text-msg" placeholder="Message"></textarea>
 								<button class="site-btn" type="submit">send message</button>
 							</div>
